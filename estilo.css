@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 380px;
+    margin: 10px 10px;
+    border: 2px solid black;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.linea_1, .linea_2, .linea_3, .linea_4, .linea_5, .linea_6, .linea_7, .linea_8, .linea_9 {
+    width: 120px;
+    height: 120px;
+    padding: 8px 8px;
+    border: 1px solid black;
+    background-color: red;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    gap: 10px 10px;
+
+}
+
+.botonera {
+    width: 330px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px 10px;
+}
+
+
+.por__dos {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.por__dos:hover {
+    cursor: pointer;
+}
+
+.por__tres {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.por__tres:hover {
+    cursor: pointer;
+}
+
+.por__cuatro {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.por__cuatro:hover {
+    cursor: pointer;
+}
+
+.por__cinco {
+    width: 50px;
+    height: 50px;
+    margin: 10px 10px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.por__cinco:hover {
+    cursor: pointer;
+}
+
+.tiradas__automaticas {
+    width: 100px;
+    height: 100px;
+    margin: 15px 20px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.tiradas__automaticas:hover {
+    background-color: greenyellow;
+    cursor: pointer;
+}
+
+/* .linea_2 {
+    width: 100px;
+    height: 120px;
+    border: 1px solid black;
+    background-color: red;
+    font-size: 100px;
+    text-align: center;
+}
+
+.linea_3 {
+    width: 100px;
+    height: 120px;
+    border: 1px solid black;
+    background: red;
+    font-size: 100px;
+    text-align: center;
+} */
+
+.btn_Tirar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 50px;
+    background-color: aqua;
+    color: brown;
+}
+
+.btn_Tirar:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
